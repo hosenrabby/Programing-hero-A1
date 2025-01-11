@@ -141,6 +141,7 @@
     background-color: #fff;
     border: 1px solid #E4E4E4;
     border-radius: 16px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.3);
 }
 .about-piller-card-des{
     padding: 0px 12px 0px 0px;
@@ -253,7 +254,7 @@
     border: none;
     background-color: #C6E4D6;
 }
-.table-btn{
+.select-btn{
     padding: 10px 14px;
     background-color: #C6E4D6;
     border: 1px solid black;
@@ -264,7 +265,7 @@
     margin-left: 45px;
     cursor: pointer;
 }
-.table-btn:hover{
+.select-btn:hover{
     background-color: #fff;
     transition: 0.3s;
 }
