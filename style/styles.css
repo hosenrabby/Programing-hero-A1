@@ -301,13 +301,23 @@
     gap: 24px;
     margin: 0 auto;
 }
-.donate-taka{
+.donate-amnt{
     margin: 32px 0px;
     height: 48px;
     background-color: #fff;
     border: 1px solid #6A7972;
     border-radius: 16px;
     padding: 40px;
+    cursor: pointer;
+}
+.amnt-1000{
+    background-color: #C6E4D6;
+}
+.donate-amnt:hover{
+    background-color: #C6E4D6;
+    border: 1px solid #6A7972;
+    border-radius: 16px;
+    transition: 0.3s;
 }
 .donete-other-amnt form{
     display: flex;
