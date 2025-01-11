@@ -22,7 +22,9 @@
   }
 
   /* ======================common styles ======================== */
-
+.text-center{
+    text-align: center;
+}
   .btn-primary{
     font-size: 18px;
     font-weight: 500;
@@ -174,15 +176,33 @@
 .vision-btn1{
     margin-top: 55px;
 }
+.vision-btn1:hover{
+    background-color: #D5E1F5;
+    color: black;
+    border: 1px solid black;
+    transition: 0.3s;
+}
 .vision-btn2{
     background-color: #09A15C;
     border: 1px solid #09A15C;
     margin-top: 76px;
 }
+.vision-btn2:hover{
+    background-color: #C6E4D6;
+    color: black;
+    border: 1px solid black;
+    transition: 0.3s;
+}
 .vision-btn3{
     background-color: #FFC239;
     border: 1px solid #FFC239;
     margin-top: 52px;
+}
+.vision-btn3:hover{
+    background-color: #F7EBCF;
+    color: black;
+    border: 1px solid black;
+    transition: 0.3s;
 }
 
 /* ======================about cheif advisor od banglades styles ======================== */
@@ -198,4 +218,164 @@
 }
 .cheif-des{
     font-weight: 400;
+}
+
+/* ======================question ans part styles ======================== */
+.ques-part{
+    height: 344px;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 80px;
+}
+.qus-table{
+    width: 100%;
+    border: 1px solid #6A7972;
+    border-collapse: collapse;
+    text-align: left;
+}
+.qus-table td,th{
+    padding: 24px 0px 24px 24px;
+    border: 1px solid #6A7972;
+}
+.qus-t-head{
+    font-size: 20px;
+    font-weight: 400;
+}
+.qus-table th{
+    border: none;
+    background-color: #C6E4D6;
+}
+.table-btn{
+    padding: 10px 14px;
+    background-color: #C6E4D6;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 45px;
+    cursor: pointer;
+}
+.table-btn:hover{
+    background-color: #fff;
+    transition: 0.3s;
+}
+/* ======================news section styles ======================== */
+.news-card{
+    margin: 24px 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 308px;
+    padding: 48px;
+    background-color: #fff;
+    border-radius: 24px;
+    gap: 32px;
+}
+.news-photo img{
+    width: 408px;
+    border-radius: 24px;
+}
+.news-heading{
+    font-size: 32px;
+    color: #0E0E0E;
+}
+.dat-time{
+    padding: 12px 0px;
+}
+.news-btn{
+    margin-top: 32px;
+}
+
+/* ======================Donate section styles ======================== */
+.donate-section{
+    margin: 80px 0px;
+}
+.donate-des{
+    padding: 0px 86px;
+}
+.donate-amounts{
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0 auto;
+}
+.donate-taka{
+    margin: 32px 0px;
+    height: 48px;
+    background-color: #fff;
+    border: 1px solid #6A7972;
+    border-radius: 16px;
+    padding: 40px;
+}
+.donete-other-amnt form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.donete-other-amnt input{
+    text-align: center;
+    display: block;
+    width: 1032px;
+    padding:  20px 40px;
+    border: none;
+}
+/* ======================subscription styles ======================== */
+.subscription-box{
+    height: 260px;
+    padding: 80px 100px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.subscription-des{
+    width: 660px;;
+}
+.subscription-field{
+    padding: 24px 0px;
+}
+.subscription-field form{
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+}
+.subscription-field input{
+    width: 500px;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    outline-color: #006A50;
+}
+.subscription-btn{
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+}
+.subscription-btn:hover{
+    border: 1px solid #006A50;
+    border-radius: 0px 8px 8px 0px;
+}
+/* ======================footer section styles ======================== */
+.footer-part{
+    background-color: #fff;
+    height: 188px;
+    padding: 50px 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-part hr{
+    width: 1122px;
+    color: #6A7972;
+}
+.social-icon{
+    width: 120px;
+    padding: 32px 0px 50px 0px;
+    display: flex;
+    justify-content: space-between;
 }
