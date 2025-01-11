@@ -120,6 +120,13 @@
     color: #0E0E0E;
     font-weight: 400;
 }
+.explore-btn:hover{
+    background-color: #C6E4D6;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    color: #006A50;
+    transition: 0.3s;
+}
 /* ======================about banglades piller styles ======================== */
 
 .about-piller-cards{
